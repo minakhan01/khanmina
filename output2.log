@@ -1,0 +1,1101 @@
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET / HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /style.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /css/dark.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /css/bootstrap.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /css/font-icons.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/jquery.min.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/jquery.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/plugins.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/skill-settings.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/script.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /js/functions.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /css/animate.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:07] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/responsive.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/plugins.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /img/Mina.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/style.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/style-responsive.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /css/retina.css HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /fcmun1.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /fcmun2.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /fcmun3.jpg HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:08] "GET /img/preloader.gif HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /images/preloader.gif HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /img/favicon-32x32.png HTTP/1.1" 200 -
+66.155.234.67 - - [26/Oct/2015 02:15:09] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+185.49.14.190 - - [26/Oct/2015 05:40:11] code 404, message File not found
+185.49.14.190 - - [26/Oct/2015 05:40:11] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 -
+185.49.14.190 - - [26/Oct/2015 12:38:49] code 404, message File not found
+185.49.14.190 - - [26/Oct/2015 12:38:49] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+104.132.34.69 - - [26/Oct/2015 17:11:01] "GET / HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/jquery.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/jquery.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/plugins.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/skill-settings.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/script.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:11:02] "GET /js/functions.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET / HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/bootstrap.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /style.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/dark.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/font-icons.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/animate.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/responsive.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/plugins.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/style.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/style-responsive.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /img/Mina.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /fcmun1.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /fcmun2.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /fcmun3.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/jquery.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/jquery.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/plugins.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/skill-settings.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/script.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /js/functions.js HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /css/retina.css HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /img/preloader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:30] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:31] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:31] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:31] "GET /images/preloader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:31] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+104.132.34.69 - - [26/Oct/2015 17:24:31] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+91.196.50.33 - - [26/Oct/2015 18:14:10] code 404, message File not found
+91.196.50.33 - - [26/Oct/2015 18:14:10] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 -
+64.233.172.175 - - [26/Oct/2015 18:29:48] code 404, message File not found
+64.233.172.175 - - [26/Oct/2015 18:29:48] "GET /favicon.ico HTTP/1.1" 404 -
+64.233.172.191 - - [26/Oct/2015 18:30:21] code 404, message File not found
+64.233.172.191 - - [26/Oct/2015 18:30:21] "GET /favicon.ico HTTP/1.1" 404 -
+66.249.88.205 - - [26/Oct/2015 18:42:24] "GET / HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:24] "GET /css/font-icons.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:24] "GET /css/dark.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:24] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:24] "GET /css/animate.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:24] "GET /style.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:24] "GET /css/bootstrap.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:24] "GET /css/responsive.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:24] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:25] "GET /css/plugins.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:25] "GET /css/style.css HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:25] "GET /css/style-responsive.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /js/jquery.js HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:25] "GET /js/jquery.min.js HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:25] "GET /js/plugins.js HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /js/skill-settings.js HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:25] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:25] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:25] "GET /js/script.js HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:25] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:25] "GET /js/functions.js HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /img/Mina.png HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:25] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /css/retina.css HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:26] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:26] "GET /fcmun1.jpg HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:26] "GET /fcmun2.jpg HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:26] "GET /fcmun3.jpg HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:27] code 404, message File not found
+66.249.88.210 - - [26/Oct/2015 18:42:27] "GET /css/fonts/font-icons.eot HTTP/1.1" 404 -
+66.249.88.200 - - [26/Oct/2015 18:42:27] "GET /fonts/fontawesome-webfont.eot? HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:27] "GET /img/preloader.gif HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:27] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:27] "GET /css/fonts/font-icons.woff HTTP/1.1" 200 -
+66.249.88.210 - - [26/Oct/2015 18:42:31] "GET /rs-plugin/font/revicons.eot?5510888 HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:42:31] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+66.249.88.205 - - [26/Oct/2015 18:42:31] "GET /images/preloader.gif HTTP/1.1" 200 -
+66.249.88.200 - - [26/Oct/2015 18:43:16] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:15] "GET / HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:16] "GET /css/font-icons.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:16] "GET /style.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:17] "GET /css/bootstrap.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:18] "GET /css/dark.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:18] "GET /css/animate.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:22] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:22] "GET /css/responsive.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:22] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:23] "GET /css/plugins.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:23] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:25] "GET /css/style.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:29] "GET /css/style-responsive.css HTTP/1.1" 200 -
+203.87.236.9 - - [26/Oct/2015 22:27:30] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+203.87.236.9 - - [26/Oct/2015 22:27:36] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+91.236.75.4 - - [27/Oct/2015 02:02:55] code 404, message File not found
+91.236.75.4 - - [27/Oct/2015 02:02:55] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 -
+91.196.50.33 - - [27/Oct/2015 02:41:16] code 404, message File not found
+91.196.50.33 - - [27/Oct/2015 02:41:16] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+184.95.52.218 - - [27/Oct/2015 02:52:25] code 404, message File not found
+184.95.52.218 - - [27/Oct/2015 02:52:25] "GET http://azenv.net/ HTTP/1.1" 404 -
+185.93.185.47 - - [27/Oct/2015 02:59:23] code 404, message File not found
+185.93.185.47 - - [27/Oct/2015 02:59:23] "GET /rom-0 HTTP/1.1" 404 -
+52.88.3.64 - - [27/Oct/2015 04:24:27] "GET / HTTP/1.1" 200 -
+142.54.172.108 - - [27/Oct/2015 06:54:13] "GET / HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:02:54] "GET / HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:02:55] "GET /css/bootstrap.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:02:56] "GET /style.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:00] "GET /css/dark.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:00] "GET /css/font-icons.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:00] "GET /css/animate.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:01] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:01] "GET /css/responsive.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:04] "GET /css/plugins.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:04] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:05] "GET /css/style-responsive.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:05] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:05] "GET /css/style.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:06] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:06] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:07] "GET /js/jquery.min.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:08] "GET /js/jquery.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:08] "GET /js/plugins.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:12] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:12] "GET /css/retina.css HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:12] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:13] "GET /js/skill-settings.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:13] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:15] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:16] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:17] "GET /js/script.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:17] "GET /js/functions.js HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:18] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:18] "GET /img/Mina.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:19] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+162.209.8.106 - - [27/Oct/2015 07:03:19] "GET / HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:19] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:19] "GET /img/preloader.gif HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:20] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:21] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:21] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:21] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:21] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:22] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:22] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:22] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:22] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:24] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:24] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:24] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:25] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:25] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:25] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:26] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:26] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:26] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:26] "GET /fcmun1.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:28] "GET /fcmun3.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:29] "GET /fcmun2.jpg HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:39] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:39] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:40] "GET /images/preloader.gif HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:48] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+91.72.141.88 - - [27/Oct/2015 07:03:48] "GET /img/apple-icon-180x180.png HTTP/1.1" 200 -
+91.196.50.33 - - [27/Oct/2015 09:55:02] code 404, message File not found
+91.196.50.33 - - [27/Oct/2015 09:55:02] "GET http://testp2.czar.bielawa.pl/testproxy.php HTTP/1.1" 404 -
+201.150.109.155 - - [27/Oct/2015 09:58:59] "GET / HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:00] "GET /css/bootstrap.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:01] "GET /style.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:02] "GET /css/dark.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:02] "GET /css/font-icons.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:02] "GET /css/animate.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:03] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:03] "GET /css/responsive.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:03] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:04] "GET /css/plugins.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:04] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:04] "GET /css/style.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:04] "GET /css/style-responsive.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:04] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:04] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:05] "GET /js/jquery.min.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:06] "GET /js/plugins.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:08] "GET /js/jquery.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:09] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:09] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:09] "GET /js/skill-settings.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:09] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:09] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:09] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:16] "GET /js/script.js HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:43] "GET /js/functions.js HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+201.150.109.155 - - [27/Oct/2015 09:59:43] "GET /img/Mina.png HTTP/1.1" 200 -
+201.150.109.155 - - [27/Oct/2015 09:59:43] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+169.54.233.126 - - [27/Oct/2015 10:31:02] "GET / HTTP/1.0" 200 -
+141.212.122.160 - - [27/Oct/2015 10:48:04] "GET / HTTP/1.1" 200 -
+142.54.187.42 - - [27/Oct/2015 11:25:51] "GET / HTTP/1.1" 200 -
+185.25.151.159 - - [27/Oct/2015 12:05:22] code 404, message File not found
+185.25.151.159 - - [27/Oct/2015 12:05:22] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:16] "GET / HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/bootstrap.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /style.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/dark.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/font-icons.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/animate.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/responsive.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/plugins.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/style.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/style-responsive.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/jquery.min.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/jquery.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/plugins.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /css/retina.css HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/skill-settings.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/script.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /js/functions.js HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /img/Mina.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /fcmun1.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /fcmun2.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /fcmun3.jpg HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /img/preloader.gif HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:17] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:18] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:18] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:18] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:18] "GET /images/preloader@2x.gif HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /img/Mina@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/full/tagalong@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/full/micropresence@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/full/MMM@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/thumb/ML@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/thumb/csail@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/thumb/ncar@2x.png HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/trailzz@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/cookups@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /images/portfolio/fcmun@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /fcmun1@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /fcmun2@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] code 404, message File not found
+104.132.34.98 - - [27/Oct/2015 14:23:19] "HEAD /fcmun3@2x.jpg HTTP/1.1" 404 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] "GET /img/favicon-32x32.png HTTP/1.1" 200 -
+104.132.34.98 - - [27/Oct/2015 14:23:19] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET / HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/bootstrap.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /style.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/dark.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/font-icons.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/animate.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/responsive.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/plugins.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/style.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/style-responsive.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/jquery.min.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/jquery.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/plugins.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/skill-settings.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /css/retina.css HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/script.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /js/functions.js HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /img/Mina.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /fcmun2.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /fcmun1.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /fcmun3.jpg HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:42] "GET /img/preloader.gif HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:43] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:43] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:43] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:43] "GET /images/preloader@2x.gif HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /img/Mina@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/full/tagalong@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/full/micropresence@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/full/MMM@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/thumb/ML@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/thumb/csail@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/thumb/ncar@2x.png HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/trailzz@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/cookups@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /images/portfolio/fcmun@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /fcmun1@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /fcmun2@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] code 404, message File not found
+173.70.72.209 - - [27/Oct/2015 14:59:44] "HEAD /fcmun3@2x.jpg HTTP/1.1" 404 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] "GET /img/favicon-32x32.png HTTP/1.1" 200 -
+173.70.72.209 - - [27/Oct/2015 14:59:44] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+85.25.218.25 - - [27/Oct/2015 16:11:46] "GET / HTTP/1.1" 200 -
+64.71.178.232 - - [27/Oct/2015 21:14:18] code 501, message Unsupported method ('CONNECT')
+64.71.178.232 - - [27/Oct/2015 21:14:18] "CONNECT www.google.pl:443 HTTP/1.1" 501 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET / HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/bootstrap.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /style.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/dark.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/font-icons.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/animate.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/plugins.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/style.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/style-responsive.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/jquery.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/jquery.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/plugins.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/retina.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/skill-settings.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/script.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /js/functions.js HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /css/responsive.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /img/Mina.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /fcmun1.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:38] "GET /fcmun2.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:39] "GET /fcmun3.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:39] "GET /img/preloader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:39] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:39] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:40] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:40] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:40] "GET /images/preloader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:40] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:40] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 22:00:40] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:07] "GET / HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:07] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:07] "GET /js/skill-settings.js HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:07] "GET /css/bootstrap.css HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /css/style.css HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /js/jquery.js HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /js/plugins.js HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /css/plugins.css HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /css/responsive.css HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /style.css HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /css/dark.css HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /css/retina.css HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /js/script.js HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /js/functions.js HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /img/Mina.png HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /fcmun2.jpg HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /fcmun3.jpg HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /fcmun1.jpg HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /css/font-icons.css HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:08] "GET /css/style-responsive.css HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:08] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:08] "GET /css/animate.css HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:09] "GET /js/jquery.min.js HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:09] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:09] "GET /img/preloader.gif HTTP/1.1" 200 -
+66.249.83.228 - - [27/Oct/2015 22:01:09] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:09] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+66.249.83.232 - - [27/Oct/2015 22:01:09] "GET /images/preloader.gif HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:09] "GET /fonts/fontawesome-webfont.woff?v=4.4.0 HTTP/1.1" 200 -
+66.249.83.224 - - [27/Oct/2015 22:01:09] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+185.25.151.159 - - [27/Oct/2015 23:12:47] code 404, message File not found
+185.25.151.159 - - [27/Oct/2015 23:12:47] "GET http://testp2.czar.bielawa.pl/testproxy.php HTTP/1.1" 404 -
+104.132.34.69 - - [27/Oct/2015 23:59:10] "GET / HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/bootstrap.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /style.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/dark.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/font-icons.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/animate.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/responsive.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/plugins.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/style.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/style-responsive.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /img/Mina.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /css/retina.css HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /fcmun1.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /fcmun2.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /fcmun3.jpg HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /img/preloader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:11] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:12] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:12] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:12] "GET /images/preloader.gif HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:13] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+104.132.34.69 - - [27/Oct/2015 23:59:13] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+142.54.174.70 - - [28/Oct/2015 04:15:00] "GET / HTTP/1.1" 200 -
+185.25.151.159 - - [28/Oct/2015 06:50:53] code 404, message File not found
+185.25.151.159 - - [28/Oct/2015 06:50:53] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+91.196.50.33 - - [28/Oct/2015 08:10:17] code 404, message File not found
+91.196.50.33 - - [28/Oct/2015 08:10:17] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+118.98.104.21 - - [28/Oct/2015 09:33:30] code 404, message File not found
+118.98.104.21 - - [28/Oct/2015 09:33:30] "GET /user/soapCaller.bs HTTP/1.1" 404 -
+180.225.203.220 - - [28/Oct/2015 11:43:33] code 404, message File not found
+180.225.203.220 - - [28/Oct/2015 11:43:33] "GET /manager/html HTTP/1.1" 404 -
+63.141.226.242 - - [28/Oct/2015 12:25:07] "GET / HTTP/1.1" 200 -
+91.196.50.33 - - [28/Oct/2015 17:03:40] code 404, message File not found
+91.196.50.33 - - [28/Oct/2015 17:03:40] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+185.25.151.159 - - [28/Oct/2015 19:41:02] code 404, message File not found
+185.25.151.159 - - [28/Oct/2015 19:41:02] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+91.196.50.33 - - [28/Oct/2015 20:45:12] code 404, message File not found
+91.196.50.33 - - [28/Oct/2015 20:45:12] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 -
+141.212.122.128 - - [28/Oct/2015 21:57:23] code 501, message Unsupported method ('CONNECT')
+141.212.122.128 - - [28/Oct/2015 21:57:23] "CONNECT proxytest.zmap.io:80 HTTP/1.1" 501 -
+208.36.227.197 - - [28/Oct/2015 21:59:24] "GET / HTTP/1.0" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:25] "GET / HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/bootstrap.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/font-icons.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/dark.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /style.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/animate.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/responsive.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/plugins.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/style.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/style-responsive.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /js/jquery.min.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /css/retina.css HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:26] "GET /js/jquery.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/plugins.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/skill-settings.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/script.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /js/functions.js HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /img/Mina.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /img/preloader.gif HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:27] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /fcmun1.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /fcmun2.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /fcmun3.jpg HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /images/preloader.gif HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:28] "GET /img/favicon-16x16.png HTTP/1.1" 200 -
+66.31.203.165 - - [28/Oct/2015 23:15:29] "GET /img/favicon-96x96.png HTTP/1.1" 200 -
+142.54.172.100 - - [28/Oct/2015 23:29:01] "GET / HTTP/1.1" 200 -
+185.25.151.159 - - [29/Oct/2015 02:08:53] code 404, message File not found
+185.25.151.159 - - [29/Oct/2015 02:08:53] "GET http://testp5.mielno.lubin.pl/testproxy.php HTTP/1.1" 404 -
+180.97.106.161 - - [29/Oct/2015 02:59:31] code 404, message File not found
+180.97.106.161 - - [29/Oct/2015 02:59:31] "GET http://www.baidu.com/ HTTP/1.1" 404 -
+180.97.106.161 - - [29/Oct/2015 04:25:25] code 404, message File not found
+180.97.106.161 - - [29/Oct/2015 04:25:25] "GET http://www.baidu.com/ HTTP/1.1" 404 -
+185.25.151.159 - - [29/Oct/2015 05:19:47] code 404, message File not found
+185.25.151.159 - - [29/Oct/2015 05:19:47] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 -
+141.212.122.64 - - [29/Oct/2015 06:42:09] code 404, message File not found
+141.212.122.64 - - [29/Oct/2015 06:42:09] "GET /x HTTP/1.1" 404 -
+173.48.215.241 - - [29/Oct/2015 07:27:27] "GET / HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/bootstrap.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /style.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/dark.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/font-icons.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/animate.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/responsive.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/style.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/plugins.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/style-responsive.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/skill-settings.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /css/retina.css HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/jquery.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/jquery.min.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/script.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/functions.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/plugins.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /img/Mina.png HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /fcmun2.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /fcmun3.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /img/preloader.gif HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /fcmun1.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:28] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:29] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:29] "GET /images/preloader.gif HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:30] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:30] "GET /fonts/fontawesome-webfont.woff?v=4.4.0 HTTP/1.1" 200 -
+173.48.215.241 - - [29/Oct/2015 07:27:30] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+137.226.113.7 - - [29/Oct/2015 07:50:18] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+208.54.36.198 - - [29/Oct/2015 10:23:19] "GET / HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:19] "GET /css/bootstrap.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:19] "GET /css/dark.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:19] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:19] "GET /style.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:20] "GET /css/font-icons.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:20] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:20] "GET /css/animate.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:21] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:21] "GET /css/responsive.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:21] "GET /css/plugins.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:21] "GET /css/style.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:21] "GET /css/style-responsive.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:21] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:22] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:23] "GET /css/retina.css HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:23] "GET /js/jquery.min.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:24] "GET /js/jquery.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:24] "GET /js/plugins.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /js/skill-settings.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /js/script.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:25] "GET /js/functions.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:26] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:26] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:26] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:26] "GET /img/preloader.gif HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:26] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /img/Mina.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:27] "GET /fcmun1.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /fcmun2.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /fcmun3.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:28] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "GET /images/preloader@2x.gif HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /img/Mina@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/full/tagalong@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/full/MMM@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/thumb/csail@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/thumb/ML@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/full/micropresence@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/trailzz@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/cookups@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/thumb/ncar@2x.png HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /images/portfolio/fcmun@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /fcmun1@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /fcmun3@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] code 404, message File not found
+208.54.36.198 - - [29/Oct/2015 10:23:29] "HEAD /fcmun2@2x.jpg HTTP/1.1" 404 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] "GET /img/apple-icon-180x180.png HTTP/1.1" 200 -
+208.54.36.198 - - [29/Oct/2015 10:23:29] "GET /img/android-icon-192x192.png HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 230, in <module>
+    test()
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 226, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 595, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET / HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/bootstrap.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /style.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/font-icons.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/dark.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/animate.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/magnific-popup.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/responsive.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/bootstrap.min.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/plugins.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/style.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/style-responsive.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /rs-plugin/css/settings.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:11] "GET /css/cubeportfolio.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/jquery.min.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/jquery.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /css/retina.css HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/plugins.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/jquery.isotope.min.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/skill-settings.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/gmap-settings.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/bootstrap.min.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /rs-plugin/js/jquery.themepunch.tools.min.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/script.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /rs-plugin/js/jquery.themepunch.revolution.min.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /js/functions.js HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /img/Mina.png HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/slide1_center.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/slide2_center.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/slide3_center.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/full/MMM.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /rs-plugin/assets/timer.png HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /img/preloader.gif HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/full/tagalong.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/full/micropresence.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/ML.png HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/GoogleGlass.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/csail.png HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/Robotics.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/MtHolyokeFullLogo.png HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/Swarm.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/Magnetism.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/Rigidity.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/ncar.png HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/thumb/Aurora.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/trailzz.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/cookups.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /images/portfolio/fcmun.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /fcmun1.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /fcmun2.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:12] "GET /fcmun3.jpg HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:13] "GET /rs-plugin/assets/loader.gif HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:13] "GET /rs-plugin/font/revicons.woff?5510888 HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:13] "GET /images/preloader.gif HTTP/1.1" 200 -
+192.54.222.4 - - [30/Oct/2015 15:10:18] "GET / HTTP/1.1" 200 -
+192.54.222.28 - - [30/Oct/2015 17:16:37] "GET / HTTP/1.1" 200 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "GET /images/preloader@2x.gif HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/full/tagalong@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/full/MMM@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /img/Mina@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/full/micropresence@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/thumb/ML@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/thumb/csail@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/thumb/MtHolyokeFullLogo@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/thumb/ncar@2x.png HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/trailzz@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/cookups@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /images/portfolio/fcmun@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /fcmun1@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /fcmun2@2x.jpg HTTP/1.1" 404 -
+192.54.222.28 - - [30/Oct/2015 17:16:44] code 404, message File not found
+192.54.222.28 - - [30/Oct/2015 17:16:44] "HEAD /fcmun3@2x.jpg HTTP/1.1" 404 -
