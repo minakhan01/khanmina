@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<title>Post: Rubik's Harmony</title>
+	<link rel="shortcut icon" href="img/favicon-96x96.png">
+
+        <link rel="stylesheet" href="static/main.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/gl-matrix-min.js"></script>
+        <script type="text/javascript" src="js/models.js"></script>
+        <script type="text/javascript" src="js/rubiks.js"></script>
+        <script type="text/javascript" src="js/musical.js"></script>
+        <script id="fragmentShader" type="x-shader/x-fragment">
+            varying highp vec4 position;
+            varying highp vec3 normal;
+
+            uniform bool lighting;
+            uniform highp vec3 eyePosition;
+            uniform highp vec4 ambient;
+            uniform highp vec4 diffuse;
+            uniform highp vec4 specular;
+            uniform highp float shininess;
+
+            const highp vec4 lightPosition = vec4(-1.,1.,-1., 1);
+            const highp vec4 lightColor = vec4(.2,.2,.2,1);
+
+            void main(void) {
+                if (lighting) {              
+                    highp vec3 position = position.xyz / position.w;
+                    highp vec3 eyeDirection = normalize(eyePosition - position);
+                    highp vec3 lightPosition = lightPosition.xyz / lightPosition.w;
+                    highp vec3 lightDirection = normalize(lightPosition - position);
+                    highp vec3 halfAngle = normalize(lightDirection + eyeDirection);
+                    highp vec4 diffuseTerm = diffuse * lightColor * max(dot(normal, lightDirection), 0.0);
+                    highp vec4 specularTerm = specular * lightColor * pow(max(dot(normal, halfAngle), 0.0), shininess);
+                    gl_FragColor = diffuseTerm + specularTerm + ambient;
+                } else {
+                    gl_FragColor = ambient;
+                }
+            }
+        </script>
+        <script id="vertexShader" type="x-shader/x-vertex">
+            attribute vec3 vertexPosition;
+            attribute vec3 vertexNormal;
+
+            uniform mat4 modelViewMatrix;
+            uniform mat4 projectionMatrix;
+            uniform mat3 normalMatrix;
+
+            varying vec4 position;
+            varying vec3 normal;
+
+            void main(void) {
+                position = modelViewMatrix * vec4(vertexPosition, 1.0);
+                gl_Position = projectionMatrix * position;
+                normal = normalize(normalMatrix * vertexNormal);
+            }
+        </script>
+</head>
+<body class="page-spacing nav-default nav-sticky">
+                <div class="col-md-10 col-md-offset-1">
+                <div class="glube col-md-5">
+                    <canvas data-alg="" data-type="solver" data-stickers=""></canvas>
+                    <div>
+                        <button class="scramble-cube btn btn-info btn-sm"><span class="glyphicon glyphicon-random"></span></button>                         
+                        <button class="reset-cube btn btn-info btn-sm"><span class="glyphicon glyphicon-fast-backward"></span></button>                         
+                        <div class="scramble">
+                            <label>Length</label> 
+                            <input type="number" class="scramble-length" min="1" value="20" />
+                            <pre class="@brand-info moveList" style="margin-top:1em">moves will appear here</pre>
+                        </div>
+                        <div class="alg">
+                            <label>Algorithm</label> 
+                            <input class="algorithm form-control" placeholder="Algorithm" type="text" />
+                        </div>
+                        <button class="run-alg btn btn-info btn-sm"><span class="glyphicon glyphicon-play"></span></button>                         
+                    </div>
+                </div>
+                </div>
+
+
+
+	<!-- Scripts -->
+		<!-- // <script src="javascript/libraries/jquery.min.js"></script> -->
+	<script src="javascript/libraries/isotope.min.js"></script>
+	<script src="javascript/libraries/imagesloaded.min.js"></script>
+	<script src="javascript/libraries/jquery.parallax.min.js"></script>
+	<script src="javascript/libraries/jquery.mb.YTPlayer.js"></script>
+	<script src="javascript/libraries/slick.min.js"></script>
+	<script src="javascript/libraries/smoothScroll.min.js"></script>
+	<script src="javascript/libraries/jquery.validate.min.js"></script>
+	<script src="javascript/theme.js"></script>
+</body>
+</html>
