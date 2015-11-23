@@ -22,7 +22,7 @@ website:   	http://www.themepunch.com
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important}
 
 
-.tp-caption { z-index:1; white-space:nowrap}
+.tp-caption { z-index:1; white-space:nowrap; text-align:center;}
 
 .tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important}
 
@@ -1558,8 +1558,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(../assets/timer.png);position:absolute; z-index:200;top:0px}
-.tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto}
+.tp-bannertimer								{	width:100%; height:5px; background:url(../assets/timer.png);position:absolute; z-index:200;top:0px; background-color: #000}
+/*.tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto}*/
 
 
 

@@ -34,8 +34,10 @@
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
     <link rel="stylesheet" href="css/animate.css" type="text/css" />
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link href="css/bootstrap_awards.css" rel="stylesheet">
+<link href="css/style_awards.css" rel="stylesheet">
+<link href="css/responsive_awards.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -57,6 +59,62 @@
 
 <!-- Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Lato:400,300,900|Lora:400italic,700italic|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="static/main.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/gl-matrix-min.js"></script>
+        <script type="text/javascript" src="js/models.js"></script>
+        <script type="text/javascript" src="js/rubiks.js"></script>
+        <script type="text/javascript" src="js/musical.js"></script>
+        <script id="fragmentShader" type="x-shader/x-fragment">
+            varying highp vec4 position;
+            varying highp vec3 normal;
+
+            uniform bool lighting;
+            uniform highp vec3 eyePosition;
+            uniform highp vec4 ambient;
+            uniform highp vec4 diffuse;
+            uniform highp vec4 specular;
+            uniform highp float shininess;
+
+            const highp vec4 lightPosition = vec4(-1.,1.,-1., 1);
+            const highp vec4 lightColor = vec4(.2,.2,.2,1);
+
+            void main(void) {
+                if (lighting) {              
+                    highp vec3 position = position.xyz / position.w;
+                    highp vec3 eyeDirection = normalize(eyePosition - position);
+                    highp vec3 lightPosition = lightPosition.xyz / lightPosition.w;
+                    highp vec3 lightDirection = normalize(lightPosition - position);
+                    highp vec3 halfAngle = normalize(lightDirection + eyeDirection);
+                    highp vec4 diffuseTerm = diffuse * lightColor * max(dot(normal, lightDirection), 0.0);
+                    highp vec4 specularTerm = specular * lightColor * pow(max(dot(normal, halfAngle), 0.0), shininess);
+                    gl_FragColor = diffuseTerm + specularTerm + ambient;
+                } else {
+                    gl_FragColor = ambient;
+                }
+            }
+        </script>
+        <script id="vertexShader" type="x-shader/x-vertex">
+            attribute vec3 vertexPosition;
+            attribute vec3 vertexNormal;
+
+            uniform mat4 modelViewMatrix;
+            uniform mat4 projectionMatrix;
+            uniform mat3 normalMatrix;
+
+            varying vec4 position;
+            varying vec3 normal;
+
+            void main(void) {
+                position = modelViewMatrix * vec4(vertexPosition, 1.0);
+                gl_Position = projectionMatrix * position;
+                normal = normalize(normalMatrix * vertexNormal);
+            }
+        </script>
+
 </head>
 <body>
 <!-- Pre-loader -->
@@ -83,12 +141,13 @@
 		<ul class="nav uppercase">
 			<li><a href="#home" class="scroll">Home</a></li>
 			<li><a href="#publications" class="scroll">Publications</a></li>
-			<li><a href="#projects" class="scroll">Projects</a></li>
+			<li><a href="#projects" class="scroll">Research</a></li>
 			<li><a href="#employment" class="scroll">Employment</a></li>
+            <li><a href="#hacks" class="scroll">Hacks</a></li>
+            <li><a href="#proposal" class="scroll">Proposal</a></li>
 			<li><a href="#leadership" class="scroll">Leadership</a></li>
             <li><a href="#skills" class="scroll">Skills</a></li>
 			<li><a href="#awards" class="scroll">Awards</a></li>
-            <li><a href="#contact" class="scroll">Contact</a></li>
 		</ul>
 	</div>
 	<!-- End Navigation Menu -->
@@ -156,6 +215,7 @@
                 <a class="btn btn-dark btn-default btn-lg scroll" href="#portfolio">See my recent works</a>
             </div> -->
             </li>
+
             <!-- SLIDE  -->
             <li data-transition="fadetoleftfadefromright" data-slotamount="5" data-masterspeed="800" data-saveperformance="off" data-title="Slide">
             <!-- MAIN IMAGE -->
@@ -202,9 +262,9 @@
         data-endspeed="500" 
         data-endeasing="Power4.easeIn" 
         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; color:#000000"> -->
-        <div class="tp-caption lfb ltt text-dark font-alter header-content" 
+            <div class="tp-caption lfb ltt text-dark font-alter header-content" 
         data-x="center" 
-        data-y="bottom" data-voffset="-100" 
+        data-y="bottom" data-voffset="-150" 
         data-speed="600" 
         data-start="1000" 
         data-easing="Power4.easeOut" 
@@ -214,63 +274,29 @@
         data-endelementdelay="0.1" 
         data-endspeed="500" 
         data-endeasing="Power4.easeIn" 
-        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; font-size: 250%; color: #000000;width:100%;text-align:center;">
-                        <p style="text-align:center;" style="text-color:#000000">
-                            <a href="#publications" class="scroll" style="text-color#000000">
+        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; font-size: 250%; color: #000000; width:100%; text-align:center">
+                <a href="#publications" class="scroll">
         <i class="fa fa-copy icon-sm" style="padding: 5px"></i>
 
-            3 Publications </a>|
-<a href="#projects" class="scroll" style="text-color:#000000">
+            3 Publications </a>
+<a href="#projects" class="scroll">
         <i class="fa fa-rocket icon-sm" style="padding: 5px"></i>
 
-            6 Research Projects </a>|
+            6 Research Projects </a>
         
 
-<a href="#employment" class="scroll" style="text-color:#000000">
+<a href="#employment" class="scroll">
         <i class="fa fa-book icon-sm" style="padding: 5px"></i>
 
             12 Courses Taught</a>
-        </p>
             </div>
-      <!-- LAYER NR. 3 -->
-        <!-- <div class="tp-caption lfb ltt tp-resizeme" 
-        data-x="700" 
-        data-y="center" data-voffset="140" 
-        data-speed="600" 
-        data-start="1400" 
-        data-easing="Power4.easeOut" 
-        data-splitin="none" 
-        data-splitout="none" 
-        data-elementdelay="0.01" 
-        data-endelementdelay="0.1" 
-        data-endspeed="500" 
-        data-endeasing="Power4.easeIn" 
-        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                <a class="btn btn-dark btn-default btn-lg scroll" href="#portfolio">See my recent works</a>
-            </div> -->
+
             </li>
             
             <!-- SLIDE  -->
             <li data-transition="fadetoleftfadefromright" data-slotamount="5" data-masterspeed="800"  data-saveperformance="off" data-title="Slide">
             <!-- MAIN IMAGE -->
             <img src="images/slide3_center.jpg" alt="fullslide2" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-            <!-- LAYERS -->
-            <!-- LAYER NR. 2 -->
-<!--             <div class="tp-caption lfb ltt header-content font-alter text-dark" 
-        data-x="center" data-hoffset="0" 
-        data-y="center" data-voffset="170" 
-        data-speed="600" 
-        data-start="900" 
-        data-easing="Power4.easeOut" 
-        data-splitin="none" 
-        data-splitout="none" 
-        data-elementdelay="0.01" 
-        data-endelementdelay="0.1" 
-        data-endspeed="500" 
-        data-endeasing="Power4.easeIn" 
-        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; color:#000000; font-size:28px;">
-                Compassionate problem-solver &amp; tireless explorer
-            </div> -->
             <div class="tp-caption lfb ltt text-dark font-alter header-content" 
         data-x="center" 
         data-y="bottom" data-voffset="-150" 
@@ -284,26 +310,8 @@
         data-endspeed="500" 
         data-endeasing="Power4.easeIn" 
         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; font-size: 250%; color: #000000">
-                Compassionate problem-solver &amp; tireless explorer<!-- br><hr style="border-top: 1px double #8c8b8b; opacity: 0;">
-                B.A. in Mathematics, Physics <br> &amp; Computer Science ('15)
-                 -->
+                Compassionate problem-solver &amp; tireless explorer
             </div>
-            <!-- LAYER NR. 3 -->
-            <!-- <div class="tp-caption lfb ltt tp-resizeme" 
-        data-x="center" 
-        data-y="center" data-voffset="250" 
-        data-speed="600" 
-        data-start="1200" 
-        data-easing="Power4.easeOut" 
-        data-splitin="none" 
-        data-splitout="none" 
-        data-elementdelay="0.01" 
-        data-endelementdelay="0.1" 
-        data-endspeed="500" 
-        data-endeasing="Power4.easeIn" 
-        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                <a class="btn btn-dark btn-default btn-lg scroll" href="#portfolio">See my recent works</a>
-            </div> -->
             </li>
         </ul>
         <div class="tp-bannertimer">
@@ -321,16 +329,6 @@
 </div>
 <!-- END REVOLUTION SLIDER -->
 
-<!-- Work Section -->
-  <!-- Scroll icon -->
-  <!-- <a href="#publications" class="scroll">
-    <div class="scrollIcon">
-        <span class="scroll-down">            <i class="fa fa-angle-double-down animated"></i>
-</span>                            
-      <span class="scroll-text">Scroll</span>
-    </div>
-  </a> -->
-  <!-- End Scroll icon --> 
 <section id="publications" class="section-content killPadBottom"  style="margin:20px 0px 0px 0px;">
 
 <div class="container">
@@ -342,8 +340,6 @@
             <!-- End Section title -->
         </div>
 </div>
-
-<!-- <iframe src="http://mina-khan.com/Resume_MinaKhan.pdf" frameborder="0"></iframe> -->
 
 <!-- Portfolio Items
                 ============================================= -->
@@ -581,11 +577,11 @@
                 <div class="circle">
                 </div>
                 <div class="data">
-                    <h4 class="title" style="font-size: 18px">Google</h4>
+                    <h4 class="title" style="font-size: 18px">Project Aura: Glass and Beyond, Google</h4>
                     <div class="content row">
                         <div class="col-md-12" style="font-size: 16px">
                             <h5>Sotware Engineer</h5>
-                            <strong>Project Aura: Glass and Beyond</strong>
+                            <strong>Smart, personalized applications for wearables</strong>
                         </div>
                     </div>
                 </div>
@@ -604,8 +600,7 @@
                         <div class="col-md-12" style="font-size: 16px">
                             <h5>Course Manager (May 2014 to Feb 2015) </h5>
                             <p>
-                                <strong>Courses Taught</strong><br>
-                                Developing Android Apps <br> Machine Learning <br> Web Programming<br> Introduction to Java Programming <br> Introduction to Computer Science
+                                <strong>Courses Taught: </strong>Developing Android Apps, Machine Learning, Web Programming, Introduction to Java Programming, &amp; Introduction to Computer Science
 
                             </p>
                         </div>
@@ -625,13 +620,7 @@
                     <div class="content row">
                         <div class="col-md-12" style="font-size: 16px">
                             <h5>Teaching Assistant and Peer Mentor (Jan 2012 to Dec 2014) </h5>
-                            <p><strong>Courses Taught</strong><br>
-                                Data Structures (Jan - Dec 2014)<br>
-Quantum Mechanics (Jan - May 2014) <br>
-Real Analysis (Jan - May 2014) <br>
-Linear Algebra (Jan- Dec 2013) <br>
-Discrete Mathematics (Sept- Dec 2012) <br>
-Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 2012)
+                            <p><strong>Courses Taught: </strong>Data Structures (Jan - Dec 2014); Quantum Mechanics (Jan - May 2014); Real Analysis (Jan - May 2014); Linear Algebra (Jan- Dec 2013); Discrete Mathematics (Sept- Dec 2012); Electromagnetism (Sept 2012-Dec 2013); Force, Energy and Motion (Jan-May 2012).
 
                             </p>
                         </div>
@@ -645,6 +634,64 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 </div>
 </section>
 
+<section id="hacks" class="section-content killPadBottom" style="margin:20px 0px 0px 0px;">
+ <!--                <div class="section-title item_bottom text-center">
+        <b class="v-line-md"></b>
+            </div> -->
+<div class="container">
+        <div class="col-md-12">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center">
+                <h1 class="uppercase">Recent Hacks</h1>
+            </div>
+            <!-- End Section title -->
+        </div>
+</div>
+<div class="row" style="margin:2% 3%;">
+
+            <div class="col-md-5 col-sm-12 col-xs-12 text-center col-md-offset-1">
+            <h2 class="sub-heading"><a target="_blank" href="http://minasmindmaze.com">Blog: Mina's Mind Maze</a></h2><div class="separator-md"></div>
+            <h5 style="font-size:1.2em;"> <p> In addition to my work at Google, I have been doing a lot of hacking recently. You can see a glimpse of one of my hacking project, called <a target="_blank" href="http://minasmindmaze.com/post_rubik.html" style="color: #276"><span class="hlite">Rubik's Harmony</span></a>, here. <br>Another project of mine is <a target="_blank" href="http://muhafiz.org"><span class="hlite">Muhafiz.org</span></a>, a crowdsourced crime prevention website.<br> .<b>To see the complete list of projects I have been doing outside my Google work, please visit my blog. <br>
+            <a target="_blank" href="http://minasmindmaze.com" class="btn btn-dark btn-default"><span class="hlite">Visit Mina's Mina Maze</span></a> </b></p></h5>
+            </div>
+
+            <div class="col-md-5 col-sm-12 col-xs-12 col-md-offset-1">
+                <div class="glube">
+                     <p style="text-align:center;">Left click &amp; drag to rotate the layers, &amp; right click and drag to rotate the cube</p>
+                    <canvas data-alg="" data-type="solver" data-stickers=""></canvas>
+                    
+                </div>
+            </div>
+</div>
+</section>
+
+<section id="proposal" class="section-content killPadBottom">
+ <!--                <div class="section-title item_bottom text-center">
+        <b class="v-line-md"></b>
+            </div> -->
+<div class="container">
+        <div class="col-md-12">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center">
+                <h1 class="uppercase">Research Proposal</h1>
+            </div>
+            <!-- End Section title -->
+        </div>
+</div>
+<div class="row" style="margin:3% 0%;">
+
+            <div class="col-md-4 col-sm-10 col-xs-12 text-center col-md-offset-1" style="margin-right:3% ">
+<!--             <h2 class="sub-heading"><a target="_blank" href="http://mina-khan.com/research">Research Proposal</a></h2><div class="separator-md"></div> -->
+            <h5 style="font-size:1.2em;"> <p> In graduate school, I would like to deploy well-planned substantial projects. I have developed a research project, titled "You-biqitous agents", to explore calm physical devices, which have ambient intelligence and display subliminal signals. <b>I made a concept video and wrote a detailed proposal to prepare myself for future research.</b><br><a target="_blank" href="http://mina-khan.com/research" style="color: #276"><b>
+            <a target="_blank" href="http://mina-khan.com/research" class="btn btn-dark btn-default"><span class="hlite">View Research Proposal</span></a> </b></p></h5>
+            </div>
+
+            <div class="col-md-5 col-sm-12 col-xs-12 col-md-offset-1">
+<!--                 <p>Concept Video<p>
+ -->                <iframe width="400" height="315" src="https://www.youtube.com/embed/vzMb-QRngig" frameborder="0" allowfullscreen></iframe>
+            </div>
+</div>    
+</section>
 
 <section id="leadership" class="section-content killPadBottom" style="margin:20px 0px 0px 0px;">
                 <!-- <div class="section-title item_bottom text-center">
@@ -666,7 +713,7 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 <div class="row" style="padding:20px">
             <div class="col-md-4 col-sm-12 col-xs-12" style="height: 660px; margin:10px 0px;">
                 <!-- gallery Item  -->
-            <div style="border: 3px solid #00939C; padding:10px; height:100%">
+            <div style="border: 3px solid rgb(155, 89, 182); padding:10px; height:100%">
                 
                 <div class="work-item design web" style="height: 300px;">
                     <div class="portfolio-image" style="height: 300px;">
@@ -691,7 +738,7 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 
             <div class="col-md-4 col-sm-12 col-xs-12" style="height: 660px; margin:10px 0px;">
                 <!-- gallery Item  -->
-            <div style="border: 3px solid #C88300; padding:10px; height:100%">
+            <div style="border: 3px solid rgb(30, 130, 76); padding:10px; height:100%">
                 <!-- gallery Item  -->
 
                 <div class="work-item design web" style="height: 300px;">
@@ -708,23 +755,23 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 
                 <hr style="border-top: 1px solid #B0B0B0 ;">
 
-                <div style="height: 300px; width:100%;">
-                    <a href="http://cookups.org/">
-
-                    <div style="height:20%; padding:0px">
-                    <a class="btn btn-dark btn-default btn-lg scroll" style="left: 50%; padding:10px; margin 0px; ;color: #C88300;transform: translate(-50%, 0%);" href="http://cookups.org/">View Website</a>
+                <div style="height:300px;background-image: url(images/cook.png); background-repeat: no-repeat;">
+<!--                     <a href="http://cookups.org/">
+ -->
+                    <div style="height:20%;">
+                    <a class="btn btn-dark btn-default btn-lg scroll" style="left: 50%; top: 40%; margin 0px; background-color: rgba(255,255,255,0.5);color: #000;transform: translate(-50%, 0%);" href="http://cookups.org/">View Website</a>
                     </div>
-                    <div style="height:80%">
-                            <iframe width="100%" height="100%" src="http://cookups.org/" frameborder="1"></iframe>
-                    </div>
-                    </a>
+                    <!-- <div style="height:80%;background-image: url(images/cook.png); background-repeat: no-repeat;"> -->
+                            <!-- <img src="images/cook.png" class="img-responsive" alt=""> -->
+                     <!-- </div> -->
+                    <!-- </a> -->
                 </div>
             </div>
             </div>
 
-            <div class="col-md-4 col-sm-12 col-xs-12" style="height: 660px; margin:10px 0px;">
+            <div class="col-md-4 col-sm-12 col-xs-12" style="height: 320px; margin:10px 0px;">
                 <!-- gallery Item  -->
-            <div style="border: 3px solid #450054; padding:10px; height:100%">
+            <div style="border: 3px solid rgb(65, 131, 215); padding:10px; height:100%">
 
                 <div class="work-item design web" style="height: 300px;">
                     <div class="portfolio-image"  style="height: 300px;">
@@ -738,11 +785,10 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
                     </div>
                 </div>
 
-                <hr style="border-top: 1px solid #B0B0B0 ;">
+<!--                 <hr style="border-top: 1px solid #B0B0B0 ;">
 
                 <div style="height: 300px; width:100%;">
                 <div class="testimonial item_fade_in" style="max-height:300px">
-                  <!--First Slide-->
                   <div class="swiper-slide">
                     <img src="fcmun1.jpg" class="img-responsive" alt="" style="width:100%;">
                   </div>
@@ -753,6 +799,25 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
                     <img src="fcmun3.jpg" class="img-responsive" alt="" style="width:100%;">
                   </div>
                 </div>
+                </div> -->
+
+            </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12" style="height: 318px; margin:10px 0px;">
+                <!-- gallery Item  -->
+            <div style="border: 3px solid rgb(150, 40, 27); padding:10px; height:100%">
+                
+                <div class="work-item design web" style="height: 297px;">
+                    <div class="portfolio-image" style="height: 297px;">
+                        <img src="images/literaty_pakistan.png" alt="gallery 1" style="height: 300px;"/>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-info" style="margin:10px;">
+                            <h4>Social innovation <br>and awareness for Pakistan</h4><br> <h6>Sept '12' to May '14</h6>
+                                <div class="separator-sm no-space"></div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -762,12 +827,16 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 
 </section>
 
-<section id="skills" class="section-content killPadBottom"  style="margin:20px 0px 0px 0px;">
-    <!-- Section title -->
+<!--     <div class="row section-content killPadBottom">
+        <div class="col-md-12 text-center">
+            <h2 class="sub-heading uppercase">Skills &amp; <span class="hlite">Expertise</span></h2><div class="separator-md"></div>
+        </div>
+    </div> -->
+
+<section id="skills" class="timeline-content section-content" style="margin:20px 0px 0px 0px;">
     <div class="section-title item_bottom text-center">
         <h1 class="uppercase">Skills</h1>
     </div>
-
     <div class="row">
         <div class="col-md-12">
             <div class="col-md-4" align="center">
@@ -822,16 +891,277 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
     </div>
 </div>
 </section>
+<!-- <div id="circle"></div> -->
+
 
 <!-- Resume Timeline Section -->
 <section id="awards" class="timeline-content section-content" style="margin:20px 0px 0px 0px;">
-	<!-- Section title -->
 	<div class="section-title item_bottom text-center">
 		<h1 class="uppercase">Awards</h1>
 	</div>
-    <div class="container">
 
-	<!-- End Section title -->
+<div style="margin:0% 5%;">
+    <div style="margin:7% 0%;">
+      <hr>
+      <div class="container">
+        <ul class="filter-tabs">
+          <li class="filter active" data-role="button" data-filter="all" style="color:rgb(0, 0, 0); border:2px solid rgb(125, 125, 125); font-size: 1.3em;">All</li>
+          <li class="filter" data-role="button" data-filter="mhc" style="color:rgb(0, 0, 0); border:2px solid rgb(155, 89, 182);font-size: 1.3em;">Mount Holyoke College</li>
+          <li class="filter" data-role="button" data-filter="competitions" style="color:rgb(0, 0, 0); border:2px solid rgb(30, 130, 76);font-size: 1.3em;">Competitions</li>
+          <li class="filter" data-role="button" data-filter="cie" style="color:rgb(0, 0, 0); border:2px solid rgb(65, 131, 215);font-size: 1.3em;">Cambridge International Exams</li>
+          <li class="filter" data-role="button" data-filter="lyceum" style="color:rgb(0, 0, 0); border:2px solid rgb(150, 40, 27);font-size: 1.3em;">Lyceum School</li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+    <div class="content-section portfolio-area no-padding-bottom">
+      <div class="portfolio-list">
+        <ul class="filter-list">
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Magna Cum Laude, B.A in Mathematics, Physics &amp; Computer Science</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Phi Beta Kappa Honors Society '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Fennema &amp; Strahman Prize in Computer Science '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Rogers D Rusk Memorial Prize in Physics '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Sarah Williston Prize for academic excellence '13, '14,'15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Sarah Williston Senior Scholarship '14 &amp; '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all competitions grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(30, 130, 76); padding: 5px;">Winner of Code Jam for Google I/O '15 &amp; '14</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>          
+          <li class="mix all competitions grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(30, 130, 76); padding: 5px;">Best Business Pitch in Pitch4 Competition '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all competitions grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(30, 130, 76); padding: 5px;">Audience Favorite Pitch in Pitch4 Competition '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all competitions grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(30, 130, 76); padding: 5px;">3<sup>rd</sup> Prize in Grinspoon Enterpreneurship Competition '15</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all competitions grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(30, 130, 76); padding: 5px;">Google Anita Borg Scholarship Award '14</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all competitions grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(30, 130, 76); padding: 5px;">4<sup>th</sup> position in CCSU Regional Math Competition '13</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Sarah Williston Scholar '13</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Mildred L Sanderson Prize for excellence in Mathematics '12 </p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all mhc grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(155, 89, 182); padding: 5px;">Bennett Prize for excellence in Physics '12</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all cie grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(65, 131, 215); padding: 5px;">Highest Achievement in A Level Economics (Top in Karachi '11)</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all cie grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(65, 131, 215); padding: 5px;">Highest Achievement in A Level Further Mathematics (Top in Karachi '11)</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all cie grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(65, 131, 215); padding: 5px;">Best Across Four A Level Subjects in Karachi '11</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all cie grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(65, 131, 215); padding: 5px;">Highest Achievement in O Level Principles of Accounts (Top in World '09)</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all lyceum grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(150, 40, 27); padding: 5px;">Valedictorian Award '11</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all lyceum grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(150, 40, 27); padding: 5px;">Luca Pacioli Award for Accounting '11</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all lyceum grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(150, 40, 27); padding: 5px;">A.H Bhuiya Award for Economics '11</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all lyceum grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(150, 40, 27); padding: 5px;">Shamim Azam Award for Mathematics '11</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li class="mix all lyceum grid-3">
+            <div class="portfolio-box">
+              <figure class="image-hover"><img src="images/resource/white.png" alt="showcase">
+                <figcaption>
+                  <!-- <div class="h4">App Landing Page</div> -->
+                  <p style="border-top:2px solid rgb(150, 40, 27); padding: 5px;">Highest Aggregate in four subjects '11</p>
+                 </figcaption>
+              </figure>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+<!-- </article> -->
+ <!--    <div class="container">
+
 	<div class="row">
 		<div class='col-md-12 col-sm-12'>
 			<ul class="timeline">
@@ -941,7 +1271,7 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 		</div>
 	</div>
 	
-</div>
+</div> -->
 </section>
 <!-- End Resume Timeline Section -->
 <!-- END JOURNAL -->
@@ -987,7 +1317,6 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/plugins.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="js/gmap-settings.js"></script>
 <script type="text/javascript" src="js/skill-settings.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -996,6 +1325,19 @@ Electromagnetism (Sept 2012-Dec 2013); <br> Force, Energy and Motion (Jan-May 20
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
 
+<script src="ether-html/js/jquery.appear.js"></script> 
+<script src="ether-html/js/jquery.mixitup.min.js"></script> 
+<script src="ether-html/js/jquery.magnific-popup.js"></script> 
+<script src="ether-html/js/script_awards.js"></script> 
+
+    <script src="javascript/libraries/isotope.min.js"></script>
+    <script src="javascript/libraries/imagesloaded.min.js"></script>
+    <script src="javascript/libraries/jquery.parallax.min.js"></script>
+    <script src="javascript/libraries/jquery.mb.YTPlayer.js"></script>
+    <script src="javascript/libraries/slick.min.js"></script>
+    <script src="javascript/libraries/smoothScroll.min.js"></script>
+    <script src="javascript/libraries/jquery.validate.min.js"></script>
+    <script src="javascript/theme.js"></script>
 <!-- Js Library -->
 </body>
 </html>

@@ -235,18 +235,34 @@ $('.bg-image-holder').each(function() {
 if ($("ul.timeline").length) {
     $("ul.timeline .open").find(".content").slideDown();
 
-  $("ul.timeline").on("click","li", function(){
-		var $this = $(this);
-		$this.find(".content").slideDown();
-		$this.addClass("open");
-		$this.siblings('li.open').find(".content").slideUp();
-		$this.siblings('li').removeClass("open");
-	}).on('mouseenter','li',function(){
-		var $this = $(this);
-		($this.hasClass('open'));
-	});
+ //  $("ul.timeline").on("click","li", function(){
+	// 	var $this = $(this);
+	// 	$this.find(".content").slideDown();
+	// 	$this.addClass("open");
+	// 	$this.siblings('li.open').find(".content").slideUp();
+	// 	$this.siblings('li').removeClass("open");
+	// }).on('mouseenter','li',function(){
+	// 	var $this = $(this);
+	// 	($this.hasClass('open'));
+	// });
 }
-  
+
+//Resume Timeline Event
+if ($("ul.timeline_awards").length) {
+    $("ul.timeline_awards .open").find(".content").slideDown();
+
+  $("ul.timeline_awards").on("click","li", function(){
+        var $this = $(this);
+        $this.find(".content").slideDown();
+        $this.addClass("open");
+        $this.siblings('li.open').find(".content").slideUp();
+        $this.siblings('li').removeClass("open");
+    }).on('mouseenter','li',function(){
+        var $this = $(this);
+        ($this.hasClass('open'));
+    });
+}
+
 // Share post  
 $(function() {
     var url = window.location.href;

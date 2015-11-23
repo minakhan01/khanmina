@@ -338,7 +338,7 @@ h2.sub-heading {
 }
 
 .hlite {
-    color: #1CB5EC;
+    color: #1ABC9C;
     font-weight: 900;
 }
 
@@ -1169,7 +1169,8 @@ h4.title {
     margin: 30px 10px 0px 10px;
 }
 .award:hover {
-    border: 2px solid #d885d5;
+    /*1ABC9C*/
+    border: 2px solid #1ABC9C; 
 }
 .award-icon {
     display: inline-block;
@@ -1284,14 +1285,14 @@ ul.timeline li .data:hover:after {
     position: absolute;
     pointer-events: none;
     border-color: rgba(0, 0, 0, 0);
-    border-right-color: #1CB5EC;
+    border-right-color: #1ABC9C;
     border-width: 10px;
     margin-top: -10px;
 }
 
 ul.timeline li .data:hover {
-    background: #1CB5EC;
-    border-color: #1CB5EC;
+    background: #1ABC9C;
+    border-color: #1ABC9C;
 }
 
 ul.timeline li.open .data:hover {
@@ -1398,7 +1399,7 @@ ul.services li:nth-child(2n+1) {
 }
 
 ul.services .service-item:hover {
-    background-color: #1CB5EC;
+    background-color: #1ABC9C;
     color: #fff;
     border:4px dashed rgba(255,255,255,0.9);
 }
@@ -3380,23 +3381,24 @@ OR YOU CAN USE ANY COLOR CODE AS YOUR WISH.
 .name-title h2 span,.btn-light.btn-default:hover,a:hover,ul.timeline .data h5,.dropcap, .mobile-nav-button:hover,.mobile-nav-button:active 
 quote sup, quote cite, .award-icon,.hlite,.service-item i, .portfolio-filter-list a:hover ,.portfolio-filter-list a.active,
 .blog-post .gallery-slider .blog-hover a:hover,.blog-post .blog-img .blog-hover a:hover,.author-content a.author-social:hover{
-    color: #1CB5EC;
+    color: #1ABC9C;
 }
 
 .first-nav.white-nav .nav-inner .nav-menu ul li a:hover,.second-nav.white-nav .nav-inner .nav-menu ul li a:hover,ul.services .service-item:hover,.portfolio-items figcaption,ul.timeline li .data:hover,.btn.btn-fill:hover,.pagenav span.current,.post-quote,.btn-search, .nav>li>a:hover,.nav>li>a:active,.nav>li>a:focus
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span,.category-list .posts-count,.widget-tags .tag-cloud > li > a:hover,.name-title h5,.second-nav.white-nav .nav-inner .nav-menu ul li.active a,
 	.white-nav .nav-menu ul.dropdown-menu li a:hover{
-    background-color: #1CB5EC;
+    background-color: #1ABC9C;
 }
 ul.timeline li .data:hover:after {
-    border-right-color: #1CB5EC;
+    border-right-color: #1ABC9C;
 }
 
 ul.timeline li .data:hover,.btn.btn-fill:hover,.dropcap.box,.separator-sm,.separator-md,.separator-lg {
-    border-color: #1CB5EC;
+    border-color: #1ABC9C;
 }
 
 .widget-tabbed .nav-tabs > li.active > a,.nav-menu ul.dropdown-menu  {
-    border-top: 2px solid #1CB5EC;
+    /*d885d5 1ABC9C BF55EC*/
+    border-top: 2px solid #1ABC9C;
 }
 
